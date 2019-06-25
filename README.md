@@ -2,7 +2,7 @@ CS GO caster config
 ===================
 
 # Installation
-- Clone this repo into ../csgo/cfg/
+- Clone the content of this repo into ../csgo/cfg/caster
 
 # Usage
 - From console run `exec caster/caster`
@@ -10,20 +10,30 @@ CS GO caster config
 
 
 # Binds
-- `Keypad *` CT base
-- `Keypad -` T base
-- `Keypad 9` Mid angle
-- `Keypad 4` to `Keypad 6` Site A angles
-- `Keypad 1` to `Keypad 3` Site B angles
-- `Keypad 7` toggle hud
-- `Keypad 8` toggle crosshair
+
+### Static overhead camera angles
+- `Keypad 0` - CT base
+- `Keypad ,` - T base
+- `Keypad 1,4,7` - A site angles / pathways to A
+- `Keypad 2,5,8` - Mid angles
+- `Keypad 3,6,9` - B site angles / pathways to B
+
+### 5 second lerps to above angles
+- `Arrow down` + corresponding key from above
+
+### Pre defined few second lerps
+- `v` - CT base
+- `b` - T base
+- `j` - Mid
+- `n` - A site
+- `m` - B site
+
+### Other
+- `c` - Auto director
+- `b` - Toggle X-ray
 
 
-# Todo
-_ Add cache
-_ Add train
-_ Add mirage
-_ Add inferno
-_ Add nuke
-_ Add overpass
-_ Add cobble
+## Todo
+- Add train
+- Add nuke
+- Add vertigo
