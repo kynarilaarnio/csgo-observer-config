@@ -1,0 +1,48 @@
+OBSERVER quick camera guide
+
+Load config command: "caster" (or "exec caster/caster")
+            bind:    "DELETE"
+
+For every map there are 5 predefined lerps (use with care):
+- `v` - CT base
+- `b` - T base
+- `j` - Mid
+- `n` - A site
+- `m` - B site
+
+------------------------------------------------------------------------------------
+STATIC CAMERAS (press numpad button to jump to, hold arrow down to lerp to)
+
+Layout on numpad:
+| 7 | 8 | 9 |
+| 4 | 5 | 6 |
+| 1 | 2 | 3 |
+|   0   | , |
+
+
+de_mirage                                      de_dust2
+command: "caster_map_mirage"                   command: "caster_map_d2"
+                                                    (or "caster_map_dust2")
+bind:    "HOME"                                bind:    "PAGE UP"
+---------------------------------------------  ----------------------------------
+| A smoke setups | mid window  | B short    |  | A short  | mid xbox | B dark   |
+---------------------------------------------  ----------------------------------
+| A palace       | mid ct / ug | B apps     |  | A long   | mid ct   | B window |
+---------------------------------------------  ----------------------------------
+| A site ct      | mid t       | B site van |  | A site   | mid t    | B plat   |
+---------------------------------------------  ----------------------------------
+|           ct spawn           | t spawn    |  |       ct spawn      | t spawn  |
+---------------------------------------------  ----------------------------------
+
+de_inferno                                     de_overpass
+command: "caster_map_inferno"                  command: "caster_map_overpass"
+bind:    "INSERT"                              bind:    "PAGE DOWN"
+--------------------------------------------   -------------------------------------
+| A library  | mid knife | B Banana        |   | A long   | playground | B short   |
+--------------------------------------------   -------------------------------------
+| A short    | alt mid   | B site ct cross |   | A toilet | fountain   | B monster |
+--------------------------------------------   -------------------------------------
+| A site pit | mid t     | B site dark     |   | A site   | party      | B site    |
+--------------------------------------------   -------------------------------------
+|       ct spawn         | t spawn         |   |      ct spawn         | t spawn   |
+--------------------------------------------   -------------------------------------
