@@ -27,9 +27,9 @@ bind:    "HOME"                                bind:    "PAGE UP"
 ---------------------------------------------  ----------------------------------
 | A smoke setups | mid window  | B short    |  | A short  | mid xbox | B dark   |
 ---------------------------------------------  ----------------------------------
-| A palace       | mid ct / ug | B apps     |  | A long   | mid ct   | B window |
+| A palace       | mid ct / ug | B apps     |  | A long   | mid t    | B plat   |
 ---------------------------------------------  ----------------------------------
-| A site ct      | mid t       | B site van |  | A site   | mid t    | B plat   |
+| A site ct      | mid t       | B site van |  | A site   | mid ct   | B window |
 ---------------------------------------------  ----------------------------------
 |           ct spawn           | t spawn    |  |       ct spawn      | t spawn  |
 ---------------------------------------------  ----------------------------------
