@@ -13,11 +13,12 @@ For every map there are 5 predefined lerps (use with care):
 ------------------------------------------------------------------------------------
 STATIC CAMERAS (press numpad button to jump to, hold arrow down to lerp to)
 
-Layout on numpad:
-| 7 | 8 | 9 |
-| 4 | 5 | 6 |
-| 1 | 2 | 3 |
-|   0   | , |
+Layout on numpad:                     Map changing keybinds layout:
+| 7 | 8 | 9 |                         | Ins | Home | PgUp   |
+| 4 | 5 | 6 |                         | Del | End  | PgDown |
+| 1 | 2 | 3 |                         
+|   0   | , |                         | de_inferno  | de_mirage | de_dust2    |
+                                      | exec caster | de_train  | de_overpass |
 
 
 de_mirage                                      de_dust2
@@ -46,3 +47,16 @@ bind:    "INSERT"                              bind:    "PAGE DOWN"
 --------------------------------------------   -------------------------------------
 |       ct spawn         | t spawn         |   |      ct spawn         | t spawn   |
 --------------------------------------------   -------------------------------------
+
+de_train
+command: "caster_map_train"
+bind:    "END"
+--------------------------------------------
+| A main     | pop dog    | B halls ladder |
+--------------------------------------------
+| A e-box/kn |     Z      | B halls        |
+--------------------------------------------
+| A site     | ivy / long | B site         |
+--------------------------------------------
+|       ct spawn          | t spawn        |
+--------------------------------------------

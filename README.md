@@ -37,8 +37,8 @@ After loading the map config, following binds should work:
 - `Keypad 2,5,8` - Mid angles
 - `Keypad 3,6,9` - B site angles / pathways to B
 
-More specific camera locations can be found from file *camera_locations.txt*
-or from the map specific config file comments.
+More specific camera locations and other documentation can be found from 
+file *camera_locations.txt* or from the map specific config file comments.
 
 ##### 5 second lerps to above angles
 - `Arrow down` + corresponding key from above
@@ -52,6 +52,5 @@ or from the map specific config file comments.
 
 
 ## Todo
-- Add train
 - Add nuke
 - Add vertigo
