@@ -28,7 +28,7 @@ Originally a fork of baabelfish's observer config, nowadays pretty standalone.
 - `Left ALT` - Follow nades
 - `c` - Auto director
 - `x` - Toggle X-ray
-- `ctrl` - big map
+- `ctrl` or `q` - big map
 - `TAB` - Scoreboard
 
 ### Camera control binds
@@ -71,6 +71,10 @@ To avoid using `caster_map_<map>` aliases described above, these binds can be us
 - `Delete` - Same as *exec caster/caster*. Clear all the map specific binds and reload the config
 - `End` - de_train
 - `PgDown` - de_overpass
+
+#### Sounds
+
+- `Keypad Enter` - Toggle volume on/off
 
 #### HUD binds
 Some binds for hiding/showing some HUD elements.
